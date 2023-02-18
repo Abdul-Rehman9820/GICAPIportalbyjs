@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="./../assets/img/cropped-logo.png">
+  <link rel="icon" type="image/png" href="./../assets/img/cropped-logo.png">
+  <title>
+    GIC Housing Finance Portal
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="../assets/css/myStyle.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="../assets/css/argon-dashboard.css?v=2.0.4" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div id="preloader"></div>
+  <main class="main-content  mt-0">
+    <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg"
+      style="background-image: url('./../assets/img/b4.jpg'); background-position: top;">
+      <span class="mask bg-gradient-dark opacity-6"></span>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 text-center mx-auto">
+            <h1 class="text-white mb-2 mt-5">Welcome!</h1>
+            <p class="text-lead text-white">Enter Your Customer ID & Registered Mobile Number For OTP.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-lg-n10 mt-md-n11 mt-n10 justify-content-center">
+        <div class="col-xl-4 col-lg-5 col-md-7 mx-auto">
+          <div class="card z-index-0">
+            <div class="card-header text-center pt-4">
+              <h5>Login</h5>
+            </div>
+
+            <div class="card-body">
+              <form onsubmit="onSendOTPClick(event)">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Customer ID</label>
+                  <input type="text" id="sign_in_customer_id" name="customerId" class="form-control"
+                    placeholder="Enter Your Valid Customer ID (9 Digits)" aria-label="Customer Id" required>
+                </div>
+                <div class="mb-3">
+                  <!-- <label for="email" class="form-label">Contact Number</label> -->
+                  <label for="email" class="form-label">Registered Mobile No</label>
+                  <input type="text" id="sign_in_mobile" name="mobile" inputmode="numeric" class="form-control"
+                    placeholder="Enter Your Registered Mobile No" aria-label="mobile" required>
+                </div>
+                <div class="text-center">
+                  <button class="btn bg-gradient-dark w-100 my-4 mb-2" type="submit">Get OTP</button>
+                </div>
+                <p class="text-dark font-weight-bolder mt-3 mb-0">GIC Housing Finance</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer py-5">
+
+  </footer>
+  <!-- -------- END FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="./../script/utility.js"></script>
+  <script src="./../script/sign_in_script.js"></script>
+  <script>
+
+  </script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/argon-dashboard.min.js?v=2.0.4"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>
